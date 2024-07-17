@@ -11,12 +11,12 @@ import { Config } from './src/types/config';
 // Use an editor with Typescript support to get autocomplete and validity checking!
 export const config: Config = {
   // General
-  name: 'John',
+  name: 'Om Dwivedi',
   openInNewTab: true,
   title: 'Bento',
 
   // Clock
-  twelveHourFormat: false,
+  twelveHourFormat: true,
   flashSeparator: false,
 
   // Font Family
@@ -28,7 +28,7 @@ export const config: Config = {
   },
 
   // Theme
-  theme: 'bento',
+  theme: 'catppuccin-mocha',
 
   // Place a background image in ./src/assets/images/ and provide the file name.
   // Alternatively, provide a URL to an image. If the page is served over https, you may have issues loading images from insecure origins.
@@ -109,7 +109,7 @@ export const config: Config = {
       {
         name: 'Mail',
         icon: 'envelope',
-        url: 'https://mail.protonmail.com/',
+        url: 'https://mail.google.com/',
       },
       {
         name: 'Todoist',
@@ -138,7 +138,7 @@ export const config: Config = {
       {
         name: 'Music',
         icon: 'fab-spotify',
-        url: 'https://open.spotify.com',
+        url: 'https://music.youtube.com',
       },
       {
         name: 'twitter',
