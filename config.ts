@@ -11,7 +11,7 @@ import { Config } from './src/types/config';
 // Use an editor with Typescript support to get autocomplete and validity checking!
 export const config: Config = {
   // General
-  name: 'Om Dwivedi',
+  name: 'Om',
   openInNewTab: true,
   title: 'Bento',
 
@@ -22,9 +22,9 @@ export const config: Config = {
   // Font Family
   font: {
     // 'google' or 'local'
-    source: 'google',
+    source: 'local',
     // Font name, e.g. 'Roboto' (case sensitive)
-    name: 'Overpass',
+    name: 'FiraCode Nerd Font',
   },
 
   // Theme
@@ -65,7 +65,7 @@ export const config: Config = {
 
   // Weather
   weatherKey: import.meta.env.VITE_API_KEY, // Set your OpenWeatherMap key in .env - Move the included .env.example to .env
-  weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
+  weatherIcons: 'Nord', // 'Onedark', 'Nord', 'Dark', 'White'
   weatherUnit: 'C', // 'F', 'C'
   language: 'en', // More languages in https://openweathermap.org/current#multi
 
@@ -127,10 +127,10 @@ export const config: Config = {
         url: 'https://reddit.com',
       },
       {
-        name: 'Odysee',
+        name: 'Youtube',
         icon: 'fab-youtube',
-        url: 'https://odysee.com/',
-      },
+        url: 'https://youtube.com/',
+      }
     ],
     // Second buttons group
     // You muse use the 'buttons' layout to use this group.
@@ -202,12 +202,12 @@ export const config: Config = {
             url: 'https://www.linkedin.com',
           },
           {
-            name: 'Dribbble',
-            url: 'https://www.dribbble.com',
+            name: 'IVC Canvas',
+            url: 'https://canvas.ivc.edu/login/ldap',
           },
           {
-            name: 'Trello',
-            url: 'https://www.trello.com',
+            name: 'IUSD Canvas',
+            url: 'https://iusd.instructure.com/login/ldap',
           },
           {
             name: 'Slack',
