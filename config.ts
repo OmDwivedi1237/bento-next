@@ -172,28 +172,6 @@ export const config: Config = {
   lists: [
     // First list group
     // If you're using the 'bento' layout, this is the only group that will be used.
-    [
-      {
-        icon: 'music', // Icon for the list to use. The same as the buttons.
-        links: [
-          {
-            name: 'Inspirational', // Display text for the link
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ', // URL to the page
-          },
-          {
-            name: 'Classic',
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-          },
-          {
-            name: 'Oldies',
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-          },
-          {
-            name: 'Rock',
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-          },
-        ],
-      },
       {
         icon: 'coffee',
         links: [
