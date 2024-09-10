@@ -210,8 +210,8 @@ export const config: Config = {
             url: 'https://iusd.instructure.com/login/ldap',
           },
           {
-            name: 'Slack',
-            url: 'https://www.slack.com',
+            name: 'Aeries',
+            url: 'https://my.iusd.org/Dashboard.aspx',
           },
         ],
       },
